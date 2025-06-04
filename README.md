@@ -42,7 +42,7 @@ This project is built in Python and runs entirely in a CLI. It is composed of tw
 - Randomized assignments: For each day, the system randomly selects staff while checking off-day constraints
 - Greedy reassignment: If someone goes on leave, a replacement is found by scanning for a staff member wo his off that day and has enough remaining days off.
 - Post-Processing constraints checking: After initial generation, the system iterates over each staff to ensure they meet k off-days, adjusting if necessary.
--Fair Weekend Distribution: On Saturday and Sundays, the scheduler sorts staff based on how many weekend shifts they've had in previous weeks (from imported data) and how many weekend shifts they've been assigned so far this week, ensuring that weekend duties are evenly rotated across weeks, avoiding unfair workloads. 
+- Fair Weekend Distribution: On Saturday and Sundays, the scheduler sorts staff based on how many weekend shifts they've had in previous weeks (from imported data) and how many weekend shifts they've been assigned so far this week, ensuring that weekend duties are evenly rotated across weeks, avoiding unfair workloads. 
 
 ## Future Improvements
 Since this was a university project, I don't plan to come back to it. However, here are some possible updates I might do to this project in the future: 
