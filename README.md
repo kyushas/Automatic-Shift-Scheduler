@@ -37,7 +37,7 @@ This project is built in Python and runs entirely in a CLI. It is composed of tw
 - ```List[Staff]```: A list of Staff objects that represents the "workforce".
 - ```List[List[bool]]```: A 2D matrix (schedule_matrix) tracks WORK/OFF status for each staff per day.
 - ```Set``` and ```List``` are used to track available staff and shuffle assignments for randomization.
-- Past schedures are stored as a ```List[List[List[bool]]]```. One week per staff per day
+- Past schedures are stored as a ```List[List[List[str]]]```. One week per staff per day
 ### Algorithms 
 - Randomized assignments: For each day, the system randomly selects staff while checking off-day constraints
 - Greedy reassignment: If someone goes on leave, a replacement is found by scanning for a staff member wo his off that day and has enough remaining days off.
